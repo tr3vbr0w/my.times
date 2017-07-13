@@ -1,0 +1,20 @@
+header {
+  font-family: Veranda;
+  font-size: 14px:
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+#logo {
+  color: MediumAquamarine;
+  padding-left: 10px;
+  display: flex;
+}
+.title-logo {
+  padding-left: 10px;
+  align-self: center;
+  font-weight: bold;
+}
