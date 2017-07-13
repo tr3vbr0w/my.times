@@ -1,6 +1,6 @@
 header {
   font-family: Veranda;
-  font-size: 14px:
+  font-size: 14px;
   font-weight: bold;
   display: flex;
   flex-direction: row;
@@ -17,4 +17,12 @@ header {
   padding-left: 10px;
   align-self: center;
   font-weight: bold;
+}
+.topnav span {
+  display: inline-block;
+  align-items: center;
+  padding: 10px;
+}
+.topnav span a  {
+  color: black;
 }
