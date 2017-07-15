@@ -28,14 +28,33 @@ header {
 }
 .main-container {
   display: flex;
+  margin-top: 30px;
+  border: 1px solid black;
 }
 .column-large {
   border: 1px solid black;
   width: 630px;
+  margin-right: 50px;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+}
+.lead-story {
+  border: 1px solid black;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
 }
 .lead-title {
-  border: 1px solid black;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
   padding-right: 135px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  justify-content: flex-start;
+  display: flex;
+  font-size: 34px;
+  height: 300px;
 }
 .stories {
   border: 2px solid black;
@@ -43,4 +62,23 @@ header {
 .image-link {
   border: 1px solid black;
   display: flex;
+}
+.column-med {
+  width: 300px;
+  border: 1px solid black;
+  margin-right: 50px;
+  display; flex:
+}
+#cats {
+  border: 1px solid black;
+  display: flex;
+}
+.column-small {
+  border: 1px solid black;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+.bites {
+  border: 1px solid black;
 }
