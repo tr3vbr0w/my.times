@@ -26,3 +26,21 @@ header {
 .topnav span a  {
   color: black;
 }
+.main-container {
+  display: flex;
+}
+.column-large {
+  border: 1px solid black;
+  width: 630px;
+}
+.lead-title {
+  border: 1px solid black;
+  padding-right: 135px;
+}
+.stories {
+  border: 2px solid black;
+}
+.image-link {
+  border: 1px solid black;
+  display: flex;
+}
